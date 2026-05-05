@@ -50,4 +50,6 @@ async function startServer() {
   });
 }
 
-startServer();
+startServer().catch((err) => {
+  console.error("🔥 SERVER CRASHED:", err);
+});
