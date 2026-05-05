@@ -5,9 +5,8 @@ import { fileURLToPath } from 'url';
 import fs from 'fs';
 import cookieParser from 'cookie-parser';
 
-import authRoutes from './routes/auth.js';
-import postRoutes from './routes/posts.js';
-
+import authRoutes from './routes/auth';
+import postRoutes from './routes/posts';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
